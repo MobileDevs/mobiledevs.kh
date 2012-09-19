@@ -44,6 +44,14 @@
   </head>
 
   <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "https://connect.facebook.net/en_US/all.js#xfbml=1&appId=405097602878058";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
     <div class="navbar navbar-fixed-top">
       <div class="navbar-inner">
@@ -81,40 +89,21 @@
         <br/>
         <p>А мы тем временем собираем предложения и пожелания к нашей <a href="http://mobiledevs.kh.ua/third.html">третьей встрече</a>.</p>
         <br/>
+
       </div>
-
-  <!--<section id="typography">
-  <div class="page-header">
-    <h1>Разработчики и доклады</h1>
-  </div>
-
- 
-      <div class="row">
-        <div class="span4">
-           <p><img src="img/igor.png" /> </p>
-           <h2>Игорь Томич</h2>
-           <p>Мастхев тулы и ресурсы. Инструментарий ленивого девелопера.</p>
-
-       </div>
-        <div class="span4">
-          <p><img src="img/vlad.png" /> </p>                    
-          <h2>Влад Цепелев</h2>
-           <p>CocoaPods - простой и удобный менеджер зависимостей в Objective-C проектах.</p>
-
-        </div>
-        <div class="span4">
-          <p><img src="img/mihail.png" /> </p>                    
-          <h2>Михаил Меркулов</h2>
-          <p>Обзор популярных библиотек для iOS - едем на правильных велосипедах.</p>
-
-        </div>
-      </div>
-
-      <hr>
-</section>-->
-
       <footer>
-        <p>&copy; Kharkiv Mobile Developers 2012</p>
+  <p>     
+           <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://mobiledevs.kh.ua" data-text="Отличное комьюнити мобильных разработчиков Харькова" data-via="kharkivmobdevs" data-lang="ru" data-size="large" data-hashtags="kharkivmobdevs" data-dnt="true">Твитнуть</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<div class="fb-like" data-href="http://www.facebook.com/KharkivMobileDevs" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true"></div>
+        </p>
+
+        <p> Проект ведут <a href="http://www.tomych.com">Игорь Томич</a> и <a href="http://www.linkedin.com/in/vladtsepelev">Влад Цепелев</a>. <br>
+          &copy; Сообщество мобильных разработчиков Харькова 2012 <br />
+
+        </p>
+        
       </footer>
 
     </div> <!-- /container -->
